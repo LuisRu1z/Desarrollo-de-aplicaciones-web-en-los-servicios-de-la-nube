@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad Unidad 3 - Luis Ruiz</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            /* Imagen de fondo */
+            background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* 1. Todo el sitio en un contenedor */
+        .main-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        /* 2. Div para el header */
+        header {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #ddd;
+            overflow: hidden; /* Para limpiar el float */
+        }
+
+        /* 3. Imagen del logo a la izquierda */
+        .logo {
+            float: left;
+            width: 80px;
+            height: auto;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* 4. Enlace a video de streaming en el body */
+        .video-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* 5. Footer con datos de identificación */
+        footer {
+            padding: 20px;
+            background: #333;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Logo" class="logo">
+        </header>
+
+        <div class="content">
+            <h1>Bienvenido a mi sitio en la nube</h1>
+            <p>Esta es una aplicación web desplegada utilizando el servicio de Render.</p>
+            
+            <a href="https://www.youtube.com/watch?v=3K_ZfQp0vHw" target="_blank" class="video-link">Ver Video en YouTube</a>
+        </div>
+
+        <footer>
+            <p><strong>Curso:</strong> Conceptualización de servicios en la nube</p>
+            <p><strong>Nombre:</strong> Luis Ruiz</p>
+            <p><strong>Código:</strong> 207637993</p>
+            <p><strong>Contacto:</strong> alberto.ruiz@udgvirtual.udg.mx</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
